@@ -1,0 +1,36 @@
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    background: #00539F;
+}
+
+body {
+    /*css格式不支持//注释， 也不支持/* * /的嵌套使用*/
+    /*强制页面宽度*/
+    width: 600px;
+    /*设置上下边距0，左右边距auto，即水平上左右对称*/
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+p,li {
+   font-size: 16px;
+   line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
