@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <title>使用 JavaScript 的示例</title>
+    </head>
+    <body>
+        <button>点我呀</button>
+    </body>
+    <script src="script.js" async></script>
+    <!--                     ^  这里的async表示脚本会被异步执行，即不会阻止剩余页面的显示
+        另有参数defer，表示脚本按照页面中的调用顺序加载和运行
+        如果脚本无需等待页面解析，且无依赖独立运行，那么应使用 async。
+如果脚本需要等待页面解析，且依赖于其它脚本，调用这些脚本时应使用 defer，将关联的脚本按所需顺序置于 HTML 中。-->
+</html>
